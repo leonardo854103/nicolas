@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35%;
+    background: black;
+}
+
+.miolo{
+    width: 1000px;
+    height: 500px;
+    background: #38716591;
+    position: absolute;
+}
+
+
+.btn{
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 2px solid #e94939;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.5rem 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.primeiro{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(1.jpeg);
+    background-size: 100%;
+}
+.segundo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(2.jpeg);
+    background-size: 100%;
+}
+.terceiro{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: url(3.jpeg);
+    background-size: 100%;
+}
+.quarto{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: url(4.jpeg);
+    background-size: 100%;
+}
+
+.barra{
+    width: 500px;
+    height: 25px;
+    background: linear-gradient(50deg,#00FFFF, violet, yellow);
+    position: absolute;
+}
